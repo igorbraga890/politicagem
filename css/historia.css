@@ -1,0 +1,126 @@
+body{
+    margin: auto;
+    opacity: 0.8;
+    background: linear-gradient(darkgray, whitesmoke,darkgray);
+    background: url(../img/fundo_historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header{
+    padding: 5px 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #006eff;
+    width: 100%;
+    height: 80px;
+    opacity: 100%;
+    display: flex;
+    z-index: 99;
+    overflow-x: scroll;
+    border-color: #008800;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+
+}
+.logo{
+
+    height: 90px;
+    width: 90px;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.link1,
+.link2,
+.link3{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.divisao{
+    color: rgb(255, 255, 255);
+}
+
+.mid-link, .header-nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+ 
+}
+
+.mid-link{
+    margin-left: 60%;
+    margin-right: auto;
+    color: aliceblue;
+}
+
+.mid-link2, .mid-link3{
+
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+.mid-link, .mid-link2, .mid-link3{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.tituloImp{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-imp{
+   
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 100px;
+    width: 1050px;
+    margin-top: 500px;
+    background-color: rgba(1, 1, 1, 0.576);
+   
+
+}
+
+.p1{
+    position: relative;
+    margin-top: 650px;
+}
+p, .p1, h3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    background-color: azure;
+    font-size: 17px;
+    border-radius: 20px;
+
+}
+
+.title{
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+    border: solid;
+    border-radius: 10px;
+   
+}
+.tudo{
+
+    background: linear-gradient(to right, aliceblue, azure, aliceblue);
+}
+
